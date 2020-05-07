@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/19/20 10:24 PM
+  ~  */
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/edit_group">
+        <item
+            android:id="@+id/edit"
+            android:title="Edit profile"/>
+        <item
+            android:id="@+id/change"
+            android:title="Change mentor"/>
+    </group>
+
+    <group
+        android:id="@+id/main_group">
+
+        <item
+            android:id="@+id/streak_view"
+            android:title="Streak"
+            android:icon="@drawable/ic_fire_24dp"/>
+
+        <item
+            android:id="@+id/blog"
+            android:title="Blog"
+            android:icon="@drawable/ic_blog"/>
+
+    </group>
+
+    <group
+        android:id="@+id/secondary_group">
+
+        <item android:id="@+id/setting"
+            android:title="Settings"/>
+
+        <item android:id="@+id/about"
+            android:title="About Rehab"/>
+
+    </group>
+
+</menu>

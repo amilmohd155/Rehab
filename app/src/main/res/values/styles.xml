@@ -1,0 +1,33 @@
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/19/20 6:18 PM
+  ~  */
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#F8F8F8</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="background">@color/colorWhite</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+<!--        <item name="android:fitsSystemWindows">false</item>-->
+
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+</resources>

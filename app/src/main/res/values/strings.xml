@@ -1,0 +1,41 @@
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 4/8/20 10:31 PM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">Rehab</string>
+
+    <string name="s"><![CDATA["Don't" have an account?<span style="color:#28a8ff"><b> Sign up</b></span>]]></string>
+
+    <string name="signUpLink"><![CDATA[
+        <span style="color:#000">
+            "Don't" have an account?
+        </span>
+        <span style="color:#8C9EFF">
+            <b> Sign up</b>
+        </span>]]>
+    </string>
+
+    <string name="loginLink"><![CDATA[
+        <span style="color:#000">
+            Already have an account?
+        </span>
+        <span style="color:#8C9EFF">
+            <b> Login</>
+        </span>
+    ]]></string>
+    <string name="top_mentors">Top mentors</string>
+    <string name="blog_heading">Blog</string>
+    <string name="days">%1$d days</string>
+    <string name="find_a_mentor">Find a mentor</string>
+    <string name="cover_image_of_the_article">cover image of the article</string>
+
+    <string name="timing">%1$s - %2$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

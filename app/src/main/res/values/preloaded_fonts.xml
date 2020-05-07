@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/26/20 8:47 PM
+  ~  */
+  -->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/oswald</item>
+        <item>@font/poppins</item>
+    </array>
+</resources>

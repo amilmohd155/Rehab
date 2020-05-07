@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/13/20 11:39 AM
+  ~  */
+  -->
+
+<TextView
+    android:id="@+id/tv_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Blog"
+    android:textSize="20sp"
+    android:textColor="@color/colorBlack"
+    android:textStyle="bold"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<!--Top mentors-->
+<!--Blog-->

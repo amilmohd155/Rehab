@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/27/20 12:23 PM
+  ~  */
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorChatBackground">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:contentInsetStartWithNavigation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Created by John doe"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:overScrollMode="never"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:gravity="top"
+        android:background="@drawable/top_corner_10dp"
+        android:elevation="5dp"
+        android:weightSum="10"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:hint="Say something..."
+            android:gravity="top|start"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:background="@android:color/transparent"/>
+        
+        <ImageButton
+            android:id="@+id/ibSubmit"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:padding="13dp"
+            android:src="@drawable/ic_send_24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+        
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

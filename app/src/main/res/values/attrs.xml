@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/18/20 11:32 AM
+  ~  */
+  -->
+
+<resources>
+    <declare-styleable name="CircularProgressView">
+        <attr name="max" format="integer"/>
+        <attr name="shadow" format="boolean"/>
+        <attr name="progressThumb" format="boolean"/>
+        <attr name="startingAngle" format="integer"/>
+        <attr name="circularProgress" format="integer"/>
+        <attr name="progressBarThickness" format="dimension"/>
+        <attr name="progressBarColor" format="color"/>
+        <attr name="progressBarColorArray" format="reference"/>
+        <attr name="progressBarColorArrayPositions" format="reference"/>
+        <attr name="duplicateFirstColorInArray" format="boolean"/>
+        <attr name="progressBarRounded" format="boolean"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="backgroundAlphaEnabled" format="boolean"/>
+        <attr name="reverse" format="boolean"/>
+    </declare-styleable>
+</resources>

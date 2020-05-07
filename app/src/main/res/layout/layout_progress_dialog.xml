@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Amil Muhammed Hamza on 4/9/20 11:56 AM
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 3/10/20 9:35 PM
+  ~  */
+  -->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/pp_corner_radius"
+    android:id="@+id/card_view"
+    tools:viewBindingIgnore="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/pp_padding_side"
+        android:paddingEnd="@dimen/pp_padding_tb"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_marginEnd="@dimen/pp_margin_end"
+            android:layout_width="@dimen/pp_loader_size"
+            android:layout_height="@dimen/pp_loader_size"
+            android:indeterminateTint="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/pp_margin_default"
+            android:text="Loading"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/message"
+            android:layout_toEndOf="@+id/loader"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
